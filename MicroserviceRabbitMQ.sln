@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.19
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{7A12108D-5149-4C04-BAC6-00D42061AE72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{80D6748D-28B0-4C92-9167-AABF2170E2B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{ED5A475A-DD83-4D4B-9EB6-30225EE773ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Bus", "Infra.Bus", "{2F5CB70D-863B-4734-B480-CDB0FA08079A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.IoC", "Infra.IoC", "{250C390A-B50B-4682-A939-654D233921BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceRabbitMQ.Domain.Core", "MicroserviceRabbitMQ.Domain.Core\MicroserviceRabbitMQ.Domain.Core.csproj", "{37B9C3A3-E6D7-418A-910F-1FB506764A97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceRabbitMQ.Infra.Bus", "MicroserviceRabbitMQ.Infra.Bus\MicroserviceRabbitMQ.Infra.Bus.csproj", "{BC04E07F-DFA7-4464-9A4A-8F98A44C689A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37B9C3A3-E6D7-418A-910F-1FB506764A97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37B9C3A3-E6D7-418A-910F-1FB506764A97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37B9C3A3-E6D7-418A-910F-1FB506764A97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37B9C3A3-E6D7-418A-910F-1FB506764A97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC04E07F-DFA7-4464-9A4A-8F98A44C689A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC04E07F-DFA7-4464-9A4A-8F98A44C689A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC04E07F-DFA7-4464-9A4A-8F98A44C689A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC04E07F-DFA7-4464-9A4A-8F98A44C689A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{37B9C3A3-E6D7-418A-910F-1FB506764A97} = {ED5A475A-DD83-4D4B-9EB6-30225EE773ED}
+		{BC04E07F-DFA7-4464-9A4A-8F98A44C689A} = {2F5CB70D-863B-4734-B480-CDB0FA08079A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {655B1C38-D852-4FA1-B71C-90679CFFE885}
+	EndGlobalSection
+EndGlobal
