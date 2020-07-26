@@ -108,9 +108,10 @@ namespace MicroserviceRabbitMQ.Infra.Bus
                         var eventType = _eventTypes.FirstOrDefault(x => x.Name == eventName);
                         var @event = JsonConvert.DeserializeObject(message, eventType);
                         var conreteType = typeof(IEventHandler<>).MakeGenericType(eventType);
-                        await (Task) conreteType.GetMethod("Handle").Invoke(handler, new object[] { @event });
+                        await (Task)conreteType.GetMethod("Handle").Invoke(handler, new object[] { @event });
                     }
                 }
+            }
         }
     }
 }
