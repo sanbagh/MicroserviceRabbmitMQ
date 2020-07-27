@@ -1754,6 +1754,7 @@
         "dependencies": {
           "MediatR": "8.0.2",
           "MicroserviceRabbitMQ.Domain.Core": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.6",
           "Newtonsoft.Json": "12.0.3",
           "RabbitMQ.Client": "6.1.0"
         },
@@ -1804,6 +1805,35 @@
         },
         "runtime": {
           "bin/placeholder/MicroserviceRabbitMQ.Services.Banking.Domain.dll": {}
+        }
+      },
+      "MicroserviceRabbitMQ.Services.Transfer.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "MicroserviceRabbitMQ.Services.Transfer.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MicroserviceRabbitMQ.Services.Transfer.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MicroserviceRabbitMQ.Services.Transfer.Application.dll": {}
+        }
+      },
+      "MicroserviceRabbitMQ.Services.Transfer.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "MicroserviceRabbitMQ.Domain.Core": "1.0.0",
+          "MicroserviceRabbitMQ.Services.Banking.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "3.1.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.0"
+        },
+        "compile": {
+          "bin/placeholder/MicroserviceRabbitMQ.Services.Transfer.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MicroserviceRabbitMQ.Services.Transfer.Data.dll": {}
         }
       }
     }
@@ -6332,6 +6362,16 @@
       "type": "project",
       "path": "../MicroserviceRabbitMQ.Services.Banking.Domain/MicroserviceRabbitMQ.Services.Banking.Domain.csproj",
       "msbuildProject": "../MicroserviceRabbitMQ.Services.Banking.Domain/MicroserviceRabbitMQ.Services.Banking.Domain.csproj"
+    },
+    "MicroserviceRabbitMQ.Services.Transfer.Application/1.0.0": {
+      "type": "project",
+      "path": "../MicroserviceRabbitMQ.Services.Transfer.Application/MicroserviceRabbitMQ.Services.Transfer.Application.csproj",
+      "msbuildProject": "../MicroserviceRabbitMQ.Services.Transfer.Application/MicroserviceRabbitMQ.Services.Transfer.Application.csproj"
+    },
+    "MicroserviceRabbitMQ.Services.Transfer.Data/1.0.0": {
+      "type": "project",
+      "path": "../MicroserviceRabbitMQ.Services.Transfer.Data/MicroserviceRabbitMQ.Services.Transfer.Data.csproj",
+      "msbuildProject": "../MicroserviceRabbitMQ.Services.Transfer.Data/MicroserviceRabbitMQ.Services.Transfer.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6339,6 +6379,7 @@
       "MicroserviceRabbitMQ.Infra.Bus >= 1.0.0",
       "MicroserviceRabbitMQ.Services.Banking.Application >= 1.0.0",
       "MicroserviceRabbitMQ.Services.Banking.Data >= 1.0.0",
+      "MicroserviceRabbitMQ.Services.Transfer.Application >= 1.0.0",
       "Microsoft.Extensions.DependencyInjection >= 3.1.6",
       "NETStandard.Library >= 2.0.3"
     ]
@@ -6383,6 +6424,9 @@
             },
             "D:\\Learning\\Web Development\\ASP.NET Core\\RabbitMQ\\MicroserviceRabbitMQ\\MicroserviceRabbitMQ.Services.Banking.Data\\MicroserviceRabbitMQ.Services.Banking.Data.csproj": {
               "projectPath": "D:\\Learning\\Web Development\\ASP.NET Core\\RabbitMQ\\MicroserviceRabbitMQ\\MicroserviceRabbitMQ.Services.Banking.Data\\MicroserviceRabbitMQ.Services.Banking.Data.csproj"
+            },
+            "D:\\Learning\\Web Development\\ASP.NET Core\\RabbitMQ\\MicroserviceRabbitMQ\\MicroserviceRabbitMQ.Services.Transfer.Application\\MicroserviceRabbitMQ.Services.Transfer.Application.csproj": {
+              "projectPath": "D:\\Learning\\Web Development\\ASP.NET Core\\RabbitMQ\\MicroserviceRabbitMQ\\MicroserviceRabbitMQ.Services.Transfer.Application\\MicroserviceRabbitMQ.Services.Transfer.Application.csproj"
             }
           }
         }
