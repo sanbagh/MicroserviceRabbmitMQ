@@ -13,16 +13,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Bus", "Infra.Bus", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.IoC", "Infra.IoC", "{250C390A-B50B-4682-A939-654D233921BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceRabbitMQ.Domain.Core", "MicroserviceRabbitMQ.Domain.Core\MicroserviceRabbitMQ.Domain.Core.csproj", "{37B9C3A3-E6D7-418A-910F-1FB506764A97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceRabbitMQ.Domain.Core", "MicroserviceRabbitMQ.Domain.Core\MicroserviceRabbitMQ.Domain.Core.csproj", "{37B9C3A3-E6D7-418A-910F-1FB506764A97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceRabbitMQ.Infra.Bus", "MicroserviceRabbitMQ.Infra.Bus\MicroserviceRabbitMQ.Infra.Bus.csproj", "{BC04E07F-DFA7-4464-9A4A-8F98A44C689A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceRabbitMQ.Infra.Bus", "MicroserviceRabbitMQ.Infra.Bus\MicroserviceRabbitMQ.Infra.Bus.csproj", "{BC04E07F-DFA7-4464-9A4A-8F98A44C689A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9907BB0D-5C8B-4BF9-AFBB-0AA5FA04E902}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceRabbitMQ.Infra.IoC", "MicroserviceRabbitMQ.Infra.IoC\MicroserviceRabbitMQ.Infra.IoC.csproj", "{1AE64EB6-9CC7-4017-96D1-7C611EE2E449}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceRabbitMQ.Infra.IoC", "MicroserviceRabbitMQ.Infra.IoC\MicroserviceRabbitMQ.Infra.IoC.csproj", "{1AE64EB6-9CC7-4017-96D1-7C611EE2E449}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Banking", "Banking", "{6210196A-B07F-4209-8A09-F561688CC70F}"
 EndProject
@@ -34,13 +34,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{CD400436-E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{E11F8BB6-768B-4355-8ED5-63F8024DDCA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceRabbitMQ.Services.Banking.API", "MicroserviceRabbitMQ.Services.Banking.API\MicroserviceRabbitMQ.Services.Banking.API.csproj", "{B85B5E7D-1FEC-4C2F-BB76-C0EE9C117382}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceRabbitMQ.Services.Banking.API", "MicroserviceRabbitMQ.Services.Banking.API\MicroserviceRabbitMQ.Services.Banking.API.csproj", "{B85B5E7D-1FEC-4C2F-BB76-C0EE9C117382}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceRabbitMQ.Services.Banking.Application", "MicroserviceRabbitMQ.Services.Banking.Application\MicroserviceRabbitMQ.Services.Banking.Application.csproj", "{98F995DA-8EAF-4951-96C9-EFFD8D4A1DF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceRabbitMQ.Services.Banking.Application", "MicroserviceRabbitMQ.Services.Banking.Application\MicroserviceRabbitMQ.Services.Banking.Application.csproj", "{98F995DA-8EAF-4951-96C9-EFFD8D4A1DF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceRabbitMQ.Services.Banking.Data", "MicroserviceRabbitMQ.Services.Banking.Data\MicroserviceRabbitMQ.Services.Banking.Data.csproj", "{43FFA52F-D9B8-4772-B931-FD81536AB300}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceRabbitMQ.Services.Banking.Data", "MicroserviceRabbitMQ.Services.Banking.Data\MicroserviceRabbitMQ.Services.Banking.Data.csproj", "{43FFA52F-D9B8-4772-B931-FD81536AB300}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceRabbitMQ.Services.Banking.Domain", "MicroserviceRabbitMQ.Services.Banking.Domain\MicroserviceRabbitMQ.Services.Banking.Domain.csproj", "{B8458F17-7C01-4900-94D1-82DD44D27EA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceRabbitMQ.Services.Banking.Domain", "MicroserviceRabbitMQ.Services.Banking.Domain\MicroserviceRabbitMQ.Services.Banking.Domain.csproj", "{B8458F17-7C01-4900-94D1-82DD44D27EA5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
